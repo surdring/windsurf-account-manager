@@ -1,0 +1,13 @@
+=== 测试开始 ===
+所有模块导入成功
+临时目录: C:\Users\surdr\AppData\Local\Temp\tmplztyakfn
+配置路径管理器创建成功
+快照管理器创建成功
+测试账号创建成功
+模拟配置文件创建成功
+创建快照结果: 成功
+快照元数据文件存在
+快照元数据: {'account_id': 'test-account-1', 'created_at': '2025-11-27T17:49:50.919370', 'config_path': 'C:\\Users\\surdr\\AppData\\Local\\Temp\\tmplztyakfn\\windsurf_config', 'os_type': 'windows', 'files': ['settings.json'], 'custom_path': True, 'name': 'test-snapshot'}
+恢复快照结果: 成功
+删除快照结果: 成功
+所有测试通过!

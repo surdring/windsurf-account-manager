@@ -1,8 +1,7 @@
 # Windsurf Account Manager
 
-Windsurf Account Manager 是一个使用 **Python + Tkinter** 开发的桌面工具，用于在本地集中管理多个 Windsurf 账号，以及与账号相关的 MCP / Rules / 配置快照等信息，为后续实现“切号自动登录”提供基础设施。
+Windsurf Account Manager 是一个使用 **Python + Tkinter** 开发的桌面工具，用于在本地集中管理多个 Windsurf 账号，以及与账号相关的 MCP / Rules / 配置快照等信息，实现“切号自动登录”。
 
-> 本项目只提供本地账号与配置管理、登录流程分析文档以及配置快照切换方案，不内置可直接运行的自动登录脚本。
 
 ---
 
@@ -251,23 +250,3 @@ windsurf-account-manager/
 
 ---
 
-## 7. 后续计划（简要）
-
-- 在 Tkinter 应用中增加：
-  - 应用设置界面：配置 Windsurf 本地路径、MCP/Rules 实际路径、重启命令、外部登录脚本命令模板等；
-  - “为当前账号保存配置快照”按钮；
-  - “一键从快照切号”逻辑（包含配置备份与恢复）。
-- 根据实际抓到的 Windsurf 配置文件结构：
-  - 将 MCP / Rules Tab 的 JSON 结构与真实结构对齐；
-  - 实现“从 Windsurf 读取/写回 MCP & Rules”。
-- 在合规范围内，对 `api_client.py` 进行封装，用于：
-  - 获取当前用户、Plan 信息、额度使用情况；
-  - 为 UI 提供实时数据展示能力。
-
----
-
-## 8. 免责声明
-
-- 本项目仅用于学习与个人研究目的；
-- 登录流程分析基于公开资料与推测，不保证完全准确；
-- 请在使用本项目及任何相关脚本时，自行确保遵守 Windsurf / Codeium / Firebase 及操作系统的相关条款与法律规定，并自行承担风险。

@@ -1,8 +1,11 @@
-from windsurf_account_manager.ui_main import run_app
+import tkinter as tk
+from windsurf_account_manager.ui_main import App
 
 
 def main() -> None:
-    run_app()
+    root = tk.Tk()
+    app = App(root)
+    root.mainloop()
 
 
 if __name__ == "__main__":

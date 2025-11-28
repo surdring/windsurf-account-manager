@@ -1,0 +1,13 @@
+{
+  "paths": [
+    {
+      "id": 1,
+      "name": "默认Windsurf配置",
+      "path": "C:\\Users\\surdr\\AppData\\Roaming\\Windsurf",
+      "has_config": false,
+      "os_type": "windows"
+    }
+  ],
+  "active_path": 1,
+  "auto_detect": true
+}

@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "backup_interval_hours": 24,
+  "max_backups": 7,
+  "last_backup_time": "2025-11-27T18:19:56.846164"
+}

@@ -486,8 +486,8 @@ Rules 部分：
 - **桌面工具职责**：
   - 账号本地管理（你已经有了）；
   - MCP / Rules JSON 管理（你已经有了）；
-  - “切号 = 配置快照切换 + 可选执行外部命令”；
-  - 登录脚本由你自行实现，工具只负责传入 email/password 或账号 ID。
+  - “切号”未完成；
+
 
 - **Linux 配置路径**：
   - 很可能在 `~/.config/Windsurf` 或相近目录；
@@ -498,4 +498,4 @@ Rules 部分：
 
 - 对齐 Tkinter 工具中的 `McpServerConfig` / `RuleConfig` 字段；
 - 设计具体的“导入自 Windsurf / 导出到 Windsurf”的桥接逻辑；
-- 进一步细化“每个账号的配置快照”在磁盘上的目录和命名方案。
+

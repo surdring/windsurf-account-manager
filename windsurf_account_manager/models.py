@@ -17,6 +17,9 @@ class Account:
     used_flow_credits: Optional[int] = None
     api_key: Optional[str] = None
     last_sync_time: Optional[str] = None
+    # 新增字段，用于跟踪配置快照
+    has_snapshot: bool = False
+    snapshot_created_at: Optional[str] = None
 
 
 @dataclass
@@ -41,3 +44,7 @@ class AppSettings:
     rules_config_path: Optional[str] = None
     windsurf_config_path: Optional[str] = None
     restart_command: Optional[str] = None
+    # 新增字段，用于配置快照功能
+    auto_backup_before_switch: bool = True
+    auto_create_snapshot: bool = False
+    external_login_script: Optional[str] = None
